@@ -7,6 +7,7 @@ repositories {
 }
 
 dependencies {
+    implementation("org.redisson:redisson-spring-boot-starter:3.16.4")
 }
 
 tasks.withType<Test> {
